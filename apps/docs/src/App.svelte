@@ -2,9 +2,7 @@
     import '@repo/ui/globals.css';
     import svelteLogo from './assets/svelte.svg';
     import viteLogo from '/vite.svg';
-    import { Accordion, Button } from '@repo/ui';
-
-    let count = 0;
+    import { Button } from '@repo/ui';
 </script>
 
 <main class="flex flex-col items-center justify-center p-4 gap-2" style="height: 100vh;">

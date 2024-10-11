@@ -1,0 +1,39 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "module": "index.ts",
+  "main": "index.ts",
+  "scripts": {
+    "ui:add": "pnpm dlx shadcn-svelte@latest add",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "autoprefixer": "^10.4.20",
+    "svelte": "^4.2.12",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "bits-ui": "^0.21.13",
+    "clsx": "^2.1.1",
+    "svelte-radix": "^1.1.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwind-variants": "^0.2.1",
+    "tailwindcss": "^3.4.9"
+  },
+  "imports": {
+    "#*": [
+      "./src/*.ts",
+      "./src/*.svelte"
+    ]
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "svelte": "./src/index.ts"
+    },
+    "./globals.css": "./src/globals.css",
+    "./tailwind.config.ts": "./tailwind.config.ts"
+  }
+}

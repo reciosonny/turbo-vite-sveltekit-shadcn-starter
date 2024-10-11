@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@repo/ui": ["./src/"],
+      "@repo/ui/*": ["./src/*"]
+    }
+  }
+}

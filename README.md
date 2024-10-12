@@ -29,7 +29,7 @@ Use the pre-made script:
 pnpm ui:add <component-name>
 ```
 
-> This works just like the `shadcn/ui` CLI.
+This works the same to [`shadcn-svelte`](https://www.shadcn-svelte.com/) CLI but the components will be created inside `@repo/ui` package to reuse components across different apps in your monorepo.
 
 
 ## What's inside?

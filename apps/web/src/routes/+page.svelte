@@ -45,7 +45,7 @@
 	<p class="max-w-[750px] text-balance text-center text-lg text-muted-foreground sm:text-xl">
 		Starter code that contains a monorepo setup with Vite, SvelteKit, and shadcn-svelte.
 	</p>
-	<Button href="https://github.com/reciosonny" target="_blank">Learn more</Button>
+	<Button href="https://github.com/reciosonny/turbo-vite-sveltekit-shadcn-starter" target="_blank">Learn more</Button>
 </main>
 
 <style>
